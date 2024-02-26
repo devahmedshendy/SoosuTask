@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64A9C78D2B8CFA5F00A97A21 /* String+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C78C2B8CFA5F00A97A21 /* String+Assets.swift */; };
+		64A9C7902B8CFC7E00A97A21 /* PrimaryCapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C78F2B8CFC7E00A97A21 /* PrimaryCapsuleButton.swift */; };
+		64A9C7922B8CFE1900A97A21 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7912B8CFE1900A97A21 /* SessionView.swift */; };
+		64A9C7962B8D0B1B00A97A21 /* UITabBarController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7952B8D0B1B00A97A21 /* UITabBarController+Extension.swift */; };
+		64A9C7982B8D0CFF00A97A21 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7972B8D0CFF00A97A21 /* ScreenView.swift */; };
+		64A9C79D2B8D16C800A97A21 /* SessionMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C79C2B8D16C800A97A21 /* SessionMessageView.swift */; };
+		64A9C7A22B8D1D0700A97A21 /* SessionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7A12B8D1D0700A97A21 /* SessionMessage.swift */; };
 		64ABA44F2B8CC88A00BECDD0 /* SoosuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABA44E2B8CC88A00BECDD0 /* SoosuApp.swift */; };
-		64ABA4512B8CC88A00BECDD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABA4502B8CC88A00BECDD0 /* ContentView.swift */; };
 		64ABA4532B8CC88C00BECDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64ABA4522B8CC88C00BECDD0 /* Assets.xcassets */; };
 		64ABA4562B8CC88C00BECDD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64ABA4552B8CC88C00BECDD0 /* Preview Assets.xcassets */; };
+		64ABA45D2B8CCAD200BECDD0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABA45C2B8CCAD200BECDD0 /* MainView.swift */; };
+		64ABA45F2B8CCADE00BECDD0 /* VentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABA45E2B8CCADE00BECDD0 /* VentView.swift */; };
+		64ABA4612B8CCAE600BECDD0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABA4602B8CCAE600BECDD0 /* ChatView.swift */; };
+		64ABA4632B8CCAF000BECDD0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABA4622B8CCAF000BECDD0 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64A9C78C2B8CFA5F00A97A21 /* String+Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Assets.swift"; sourceTree = "<group>"; };
+		64A9C78F2B8CFC7E00A97A21 /* PrimaryCapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryCapsuleButton.swift; sourceTree = "<group>"; };
+		64A9C7912B8CFE1900A97A21 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		64A9C7952B8D0B1B00A97A21 /* UITabBarController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Extension.swift"; sourceTree = "<group>"; };
+		64A9C7972B8D0CFF00A97A21 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		64A9C79C2B8D16C800A97A21 /* SessionMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionMessageView.swift; sourceTree = "<group>"; };
+		64A9C7A12B8D1D0700A97A21 /* SessionMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionMessage.swift; sourceTree = "<group>"; };
 		64ABA44B2B8CC88A00BECDD0 /* Soosu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soosu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64ABA44E2B8CC88A00BECDD0 /* SoosuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoosuApp.swift; sourceTree = "<group>"; };
-		64ABA4502B8CC88A00BECDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64ABA4522B8CC88C00BECDD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64ABA4552B8CC88C00BECDD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64ABA45C2B8CCAD200BECDD0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		64ABA45E2B8CCADE00BECDD0 /* VentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentView.swift; sourceTree = "<group>"; };
+		64ABA4602B8CCAE600BECDD0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		64ABA4622B8CCAF000BECDD0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64A9C7892B8CF62D00A97A21 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				64ABA45C2B8CCAD200BECDD0 /* MainView.swift */,
+				64A9C7992B8D0EAA00A97A21 /* Vent */,
+				64A9C79A2B8D0EB000A97A21 /* Chat */,
+				64A9C79B2B8D0EBB00A97A21 /* Profile */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		64A9C78A2B8CFA3900A97A21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64A9C78B2B8CFA4000A97A21 /* Strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64A9C78B2B8CFA4000A97A21 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				64A9C78C2B8CFA5F00A97A21 /* String+Assets.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		64A9C78E2B8CFC7300A97A21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64A9C7972B8D0CFF00A97A21 /* ScreenView.swift */,
+				64A9C78F2B8CFC7E00A97A21 /* PrimaryCapsuleButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64A9C7932B8D0B0200A97A21 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				64A9C7942B8D0B0900A97A21 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		64A9C7942B8D0B0900A97A21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64A9C7952B8D0B1B00A97A21 /* UITabBarController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		64A9C7992B8D0EAA00A97A21 /* Vent */ = {
+			isa = PBXGroup;
+			children = (
+				64ABA45E2B8CCADE00BECDD0 /* VentView.swift */,
+			);
+			path = Vent;
+			sourceTree = "<group>";
+		};
+		64A9C79A2B8D0EB000A97A21 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				64ABA4602B8CCAE600BECDD0 /* ChatView.swift */,
+				64A9C7912B8CFE1900A97A21 /* SessionView.swift */,
+				64A9C79C2B8D16C800A97A21 /* SessionMessageView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		64A9C79B2B8D0EBB00A97A21 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				64ABA4622B8CCAF000BECDD0 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		64A9C7A02B8D1CFB00A97A21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64A9C7A12B8D1D0700A97A21 /* SessionMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		64ABA4422B8CC88A00BECDD0 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +158,11 @@
 			isa = PBXGroup;
 			children = (
 				64ABA44E2B8CC88A00BECDD0 /* SoosuApp.swift */,
-				64ABA4502B8CC88A00BECDD0 /* ContentView.swift */,
+				64A9C7892B8CF62D00A97A21 /* Screens */,
+				64A9C7A02B8D1CFB00A97A21 /* Models */,
+				64A9C78E2B8CFC7300A97A21 /* Views */,
+				64A9C7932B8D0B0200A97A21 /* Utils */,
+				64A9C78A2B8CFA3900A97A21 /* Resources */,
 				64ABA4522B8CC88C00BECDD0 /* Assets.xcassets */,
 				64ABA4542B8CC88C00BECDD0 /* Preview Content */,
 			);
@@ -137,8 +247,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64ABA4512B8CC88A00BECDD0 /* ContentView.swift in Sources */,
+				64A9C7A22B8D1D0700A97A21 /* SessionMessage.swift in Sources */,
+				64ABA45F2B8CCADE00BECDD0 /* VentView.swift in Sources */,
+				64ABA4612B8CCAE600BECDD0 /* ChatView.swift in Sources */,
+				64ABA45D2B8CCAD200BECDD0 /* MainView.swift in Sources */,
+				64A9C7922B8CFE1900A97A21 /* SessionView.swift in Sources */,
+				64A9C7982B8D0CFF00A97A21 /* ScreenView.swift in Sources */,
+				64A9C78D2B8CFA5F00A97A21 /* String+Assets.swift in Sources */,
+				64A9C7902B8CFC7E00A97A21 /* PrimaryCapsuleButton.swift in Sources */,
+				64A9C79D2B8D16C800A97A21 /* SessionMessageView.swift in Sources */,
+				64ABA4632B8CCAF000BECDD0 /* ProfileView.swift in Sources */,
 				64ABA44F2B8CC88A00BECDD0 /* SoosuApp.swift in Sources */,
+				64A9C7962B8D0B1B00A97A21 /* UITabBarController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -277,8 +397,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +406,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = learn.shendy.Soosu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,8 +429,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +438,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = learn.shendy.Soosu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
