@@ -11,6 +11,7 @@ import Combine
 struct SessionView: View {
     @Environment(\.presentationMode) var presentationMode
     @State var messages = SessionMessage.samples
+    @State var message: String = ""
     
     var body: some View {
         ZStack(alignment: .topTrailing) {
@@ -24,7 +25,7 @@ struct SessionView: View {
                             .id(messages.last)
                     }
                     .padding(.top, 75)
-                    .padding(.bottom, 150)
+                    .padding(.bottom, 200)
                     .onReceive(Just(messages)) { _ in
                         withAnimation {
                             proxy.scrollTo(messages.last, anchor: .top)
@@ -37,17 +38,39 @@ struct SessionView: View {
                 }
                 .clipped()
             }
+            .ignoresSafeArea(edges: [.horizontal, .bottom])
             
-            Button {
-                presentationMode.wrappedValue.dismiss()
-            } label: {
-                Image(systemName: "xmark")
-                    .font(.system(.largeTitle).weight(.light))
+            VStack(alignment: .trailing) {
+                Button {
+                    presentationMode.wrappedValue.dismiss()
+                } label: {
+                    Image(systemName: "xmark")
+                        .font(.system(.largeTitle).weight(.light))
+                }
+                .padding(20)
+                .accentColor(.black)
+                
+                Spacer()
+                
+                VStack(spacing: 20) {
+                    SessionSendTextField(message: $message) {
+                        // action
+                    }
+                    .padding(.horizontal, 25)
+                    
+                    SessionModeToggle(
+                        onChatModeEnabled: {
+                            
+                        }, 
+                        onVoiceModeEnabled: {
+                            
+                        }
+                    )
+                    .padding(.horizontal, 85)
+                }
             }
-            .padding(20)
-            .accentColor(.black)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .trailing)
         }
-        .ignoresSafeArea(edges: [.horizontal, .bottom])
     }
 }
 
