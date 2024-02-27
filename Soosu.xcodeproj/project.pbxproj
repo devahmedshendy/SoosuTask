@@ -13,12 +13,14 @@
 		64A9C7962B8D0B1B00A97A21 /* UITabBarController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7952B8D0B1B00A97A21 /* UITabBarController+Extension.swift */; };
 		64A9C7982B8D0CFF00A97A21 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7972B8D0CFF00A97A21 /* ScreenView.swift */; };
 		64A9C79D2B8D16C800A97A21 /* SessionMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C79C2B8D16C800A97A21 /* SessionMessageView.swift */; };
-		64A9C7A22B8D1D0700A97A21 /* SessionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7A12B8D1D0700A97A21 /* SessionMessage.swift */; };
+		64A9C7A22B8D1D0700A97A21 /* SessionMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7A12B8D1D0700A97A21 /* SessionMessageModel.swift */; };
 		64A9C7A62B8E0BAA00A97A21 /* SessionModelToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7A52B8E0BAA00A97A21 /* SessionModelToggleStyle.swift */; };
 		64A9C7A82B8E0EC900A97A21 /* OvalTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7A72B8E0EC900A97A21 /* OvalTextFieldStyle.swift */; };
 		64A9C7AA2B8E0FE200A97A21 /* PrimaryIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7A92B8E0FE200A97A21 /* PrimaryIconButton.swift */; };
 		64A9C7AC2B8E108B00A97A21 /* SessionSendTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7AB2B8E108B00A97A21 /* SessionSendTextField.swift */; };
 		64A9C7AE2B8E198200A97A21 /* SessionModeToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7AD2B8E198200A97A21 /* SessionModeToggle.swift */; };
+		64A9C7B02B8E38BF00A97A21 /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7AF2B8E38BF00A97A21 /* SessionModel.swift */; };
+		64A9C7B22B8E393C00A97A21 /* SessionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9C7B12B8E393C00A97A21 /* SessionCard.swift */; };
 		64ABA44F2B8CC88A00BECDD0 /* SoosuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABA44E2B8CC88A00BECDD0 /* SoosuApp.swift */; };
 		64ABA4532B8CC88C00BECDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64ABA4522B8CC88C00BECDD0 /* Assets.xcassets */; };
 		64ABA4562B8CC88C00BECDD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64ABA4552B8CC88C00BECDD0 /* Preview Assets.xcassets */; };
@@ -35,12 +37,14 @@
 		64A9C7952B8D0B1B00A97A21 /* UITabBarController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Extension.swift"; sourceTree = "<group>"; };
 		64A9C7972B8D0CFF00A97A21 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
 		64A9C79C2B8D16C800A97A21 /* SessionMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionMessageView.swift; sourceTree = "<group>"; };
-		64A9C7A12B8D1D0700A97A21 /* SessionMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionMessage.swift; sourceTree = "<group>"; };
+		64A9C7A12B8D1D0700A97A21 /* SessionMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionMessageModel.swift; sourceTree = "<group>"; };
 		64A9C7A52B8E0BAA00A97A21 /* SessionModelToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModelToggleStyle.swift; sourceTree = "<group>"; };
 		64A9C7A72B8E0EC900A97A21 /* OvalTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvalTextFieldStyle.swift; sourceTree = "<group>"; };
 		64A9C7A92B8E0FE200A97A21 /* PrimaryIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryIconButton.swift; sourceTree = "<group>"; };
 		64A9C7AB2B8E108B00A97A21 /* SessionSendTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSendTextField.swift; sourceTree = "<group>"; };
 		64A9C7AD2B8E198200A97A21 /* SessionModeToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModeToggle.swift; sourceTree = "<group>"; };
+		64A9C7AF2B8E38BF00A97A21 /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
+		64A9C7B12B8E393C00A97A21 /* SessionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCard.swift; sourceTree = "<group>"; };
 		64ABA44B2B8CC88A00BECDD0 /* Soosu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soosu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64ABA44E2B8CC88A00BECDD0 /* SoosuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoosuApp.swift; sourceTree = "<group>"; };
 		64ABA4522B8CC88C00BECDD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,7 +146,8 @@
 		64A9C7A02B8D1CFB00A97A21 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				64A9C7A12B8D1D0700A97A21 /* SessionMessage.swift */,
+				64A9C7A12B8D1D0700A97A21 /* SessionMessageModel.swift */,
+				64A9C7AF2B8E38BF00A97A21 /* SessionModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				64A9C7972B8D0CFF00A97A21 /* ScreenView.swift */,
 				64A9C78F2B8CFC7E00A97A21 /* PrimaryCapsuleButton.swift */,
 				64A9C7A92B8E0FE200A97A21 /* PrimaryIconButton.swift */,
+				64A9C7B12B8E393C00A97A21 /* SessionCard.swift */,
 				64A9C79C2B8D16C800A97A21 /* SessionMessageView.swift */,
 				64A9C7AB2B8E108B00A97A21 /* SessionSendTextField.swift */,
 				64A9C7AD2B8E198200A97A21 /* SessionModeToggle.swift */,
@@ -278,8 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A9C7B22B8E393C00A97A21 /* SessionCard.swift in Sources */,
 				64A9C7AA2B8E0FE200A97A21 /* PrimaryIconButton.swift in Sources */,
-				64A9C7A22B8D1D0700A97A21 /* SessionMessage.swift in Sources */,
+				64A9C7A22B8D1D0700A97A21 /* SessionMessageModel.swift in Sources */,
+				64A9C7B02B8E38BF00A97A21 /* SessionModel.swift in Sources */,
 				64ABA45F2B8CCADE00BECDD0 /* VentView.swift in Sources */,
 				64ABA4612B8CCAE600BECDD0 /* ChatView.swift in Sources */,
 				64ABA45D2B8CCAD200BECDD0 /* MainView.swift in Sources */,

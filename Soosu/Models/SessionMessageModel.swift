@@ -1,5 +1,5 @@
 //
-//  SessionMessage.swift
+//  SessionMessageModel.swift
 //  Soosu
 //
 //  Created by Ahmed Shendy on 26/02/2024.
@@ -7,14 +7,14 @@
 
 import Foundation
 
-struct SessionMessage: Identifiable, Hashable {
+struct SessionMessageModel: Identifiable, Hashable {
     let id: UUID = .init()
     let isRecipient: Bool
     let content: String
 }
 
-extension SessionMessage {
-    static var samples: [SessionMessage] {
+extension SessionMessageModel {
+    static var samples: [SessionMessageModel] {
         [
             .init(
                 isRecipient: true,

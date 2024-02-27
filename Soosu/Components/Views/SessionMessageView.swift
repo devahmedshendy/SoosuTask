@@ -11,7 +11,7 @@ struct SessionMessageView: View {
     private let isRecipient: Bool
     private let content: String
     
-    init(_ message: SessionMessage) {
+    init(_ message: SessionMessageModel) {
         self.isRecipient = message.isRecipient
         self.content = message.content
     }

@@ -10,7 +10,7 @@ import Combine
 
 struct SessionView: View {
     @Environment(\.presentationMode) var presentationMode
-    @State var messages = SessionMessage.samples
+    @State var messages = SessionMessageModel.samples
     @State var message: String = ""
     
     var body: some View {

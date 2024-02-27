@@ -17,6 +17,7 @@ extension String {
         }
         
         static var StartSession: String { "Start Session" }
+        static var PreviewSessions: String { "Previous Sessions" }
     }
 }
 

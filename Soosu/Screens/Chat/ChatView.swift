@@ -9,11 +9,14 @@ import SwiftUI
 
 struct ChatView: View {
     @State private var showingSession = false
+    @State var sessions = SessionModel.samples
     
     var username: String
     
     var body: some View {
         VStack(spacing: 30) {
+            Spacer()
+            Spacer()
             Spacer()
             
             VStack(spacing: 0) {
@@ -26,6 +29,7 @@ struct ChatView: View {
             
             Text(verbatim: .text.ChatViewDescription)
                 .multilineTextAlignment(.center)
+                .padding(.horizontal, 75)
             
             PrimaryCapsuleButton {
                 showingSession = true
@@ -35,8 +39,30 @@ struct ChatView: View {
                     .fontWeight(.bold)
             }
             
-            ForEach(0..<5) { _ in
-                Spacer()
+            Spacer()
+            Spacer()
+            
+            GeometryReader { geo in
+                VStack(alignment: .leading) {
+                    Text(verbatim: .text.PreviewSessions)
+                        .font(.title3.weight(.bold))
+                    Text("Lorem ipsum dolor sit amet")
+                        .font(.subheadline)
+                }
+                .padding(.horizontal, 40)
+                
+                ScrollView(.horizontal) {
+                    LazyHStack(spacing: 20) {
+                        ForEach(sessions) { session in
+                            SessionCard(session)
+                                .frame(
+                                    width: geo.size.width * 0.59,
+                                    height: geo.size.width * 0.59 * 0.66
+                                )
+                        }
+                    }
+                    .padding(.horizontal, 40)
+                }
             }
         }
         .fullScreenCover(isPresented: $showingSession) {
@@ -44,7 +70,6 @@ struct ChatView: View {
                 SessionView()
             }
         }
-        .padding(.horizontal, 50)
     }
 }
 
