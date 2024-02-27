@@ -35,7 +35,7 @@ struct ChatView: View {
                     .fontWeight(.bold)
             }
             
-            ForEach(0..<4) { _ in
+            ForEach(0..<5) { _ in
                 Spacer()
             }
         }

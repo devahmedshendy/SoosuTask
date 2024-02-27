@@ -26,7 +26,7 @@ struct PrimaryCapsuleButton<Label: View>: View {
             labelBuilder()
         }
         .padding(.vertical, 10)
-        .padding(.horizontal, 25)
+        .padding(.horizontal, 35)
         .foregroundColor(.white)
         .background(
             Capsule(style: .continuous)

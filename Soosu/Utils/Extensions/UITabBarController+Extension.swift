@@ -24,10 +24,10 @@ extension UITabBarController {
 
         // Uses `accessibilityIdentifier` in order to retrieve shadow view if already added
         if let shadowView = view.subviews.first(where: { $0.accessibilityIdentifier == Self.ShadowIdentifier }) {
-            shadowView.frame = tabBar.frame
+            shadowView.frame = tabBar.frame.insetBy(dx: 0, dy: -15)
         } else {
             let shadowView = UIView(frame: .zero)
-            shadowView.frame = tabBar.frame
+            shadowView.frame = tabBar.frame.insetBy(dx: 0, dy: -15)
             shadowView.accessibilityIdentifier = Self.ShadowIdentifier
             shadowView.backgroundColor = UIColor.white
             shadowView.layer.cornerRadius = tabBar.layer.cornerRadius

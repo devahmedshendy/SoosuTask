@@ -79,13 +79,13 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
-		64A9C78E2B8CFC7300A97A21 /* Views */ = {
+		64A9C78E2B8CFC7300A97A21 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				64A9C7972B8D0CFF00A97A21 /* ScreenView.swift */,
 				64A9C78F2B8CFC7E00A97A21 /* PrimaryCapsuleButton.swift */,
 			);
-			path = Views;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		64A9C7932B8D0B0200A97A21 /* Utils */ = {
@@ -160,7 +160,7 @@
 				64ABA44E2B8CC88A00BECDD0 /* SoosuApp.swift */,
 				64A9C7892B8CF62D00A97A21 /* Screens */,
 				64A9C7A02B8D1CFB00A97A21 /* Models */,
-				64A9C78E2B8CFC7300A97A21 /* Views */,
+				64A9C78E2B8CFC7300A97A21 /* Components */,
 				64A9C7932B8D0B0200A97A21 /* Utils */,
 				64A9C78A2B8CFA3900A97A21 /* Resources */,
 				64ABA4522B8CC88C00BECDD0 /* Assets.xcassets */,

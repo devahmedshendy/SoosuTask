@@ -19,9 +19,11 @@ struct SessionMessageView: View {
     var body: some View {
         Text(content)
             .padding(10)
-            .foregroundColor(.black)
+            .foregroundColor(.messageText)
             .background(
-                isRecipient ? Color.recipientBackground : Color.senderBackground
+                isRecipient
+                ? Color.recipientMessageBackground
+                : Color.senderMessageBackground
             )
             .cornerRadius(10)
             .padding(.vertical, 5)

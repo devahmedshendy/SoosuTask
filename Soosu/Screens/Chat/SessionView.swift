@@ -14,28 +14,28 @@ struct SessionView: View {
     
     var body: some View {
         ZStack(alignment: .topTrailing) {
-            VStack {
-                ScrollViewReader { proxy in
-                    ScrollView {
-                        LazyVStack {
-                            ForEach(messages) { message in
-                                SessionMessageView(message)
-                                    .id(message)
-                            }
+            ScrollViewReader { proxy in
+                ScrollView {
+                    LazyVStack {
+                        ForEach(messages) { message in
+                            SessionMessageView(message)
                         }
-                        .padding(.top, 100)
-                        .onReceive(Just(messages)) { _ in
-                            withAnimation {
-                                proxy.scrollTo(messages.last, anchor: .bottom)
-                            }
-                            
-                        }.onAppear {
-                            withAnimation {
-                                proxy.scrollTo(messages.last, anchor: .bottom)
-                            }
+                        EmptyView()
+                            .id(messages.last)
+                    }
+                    .padding(.top, 75)
+                    .padding(.bottom, 150)
+                    .onReceive(Just(messages)) { _ in
+                        withAnimation {
+                            proxy.scrollTo(messages.last, anchor: .top)
+                        }
+                    }.onAppear {
+                        withAnimation {
+                            proxy.scrollTo(messages.last, anchor: .top)
                         }
                     }
                 }
+                .clipped()
             }
             
             Button {
@@ -47,6 +47,7 @@ struct SessionView: View {
             .padding(20)
             .accentColor(.black)
         }
+        .ignoresSafeArea(edges: [.horizontal, .bottom])
     }
 }
 
